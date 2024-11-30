@@ -4,6 +4,12 @@ pipeline {
     environment {
         // Python virtual environment
         VENV_NAME = 'stock_data_venv'
+
+        AZURE_CLIENT_ID = credentials('AZURE_CLIENT_ID')
+        AZURE_TENANT_ID = credentials('AZURE_TENANT_ID')
+        AZURE_CLIENT_SECRET = credentials('AZURE_CLIENT_SECRET')
+        AZURE_VAULT_URL = credentials('AZURE_VAULT_URL')
+        STORAGE_ACCOUNT_NAME = credentials('STORAGE_ACCOUNT_NAME')
     }
     
     triggers {

@@ -1,6 +1,5 @@
 import yfinance as yf
 import pandas as pd
-from access_vault import service_client
 
 stocks = ['META', 'AAPL', 'AMZN', 'NFLX','SAP', 'GOOG', 'NVDA']
 

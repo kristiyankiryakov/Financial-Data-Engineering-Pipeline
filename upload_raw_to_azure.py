@@ -1,7 +1,6 @@
 from access_vault import service_client
 from datetime import datetime
 
-
 current_date = datetime.now().strftime('%Y%m%d')
 local_file = 'raw_stocks.csv'
 destination = f'stocks/raw_stocks_{current_date}.csv'

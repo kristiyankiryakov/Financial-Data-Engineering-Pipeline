@@ -21,8 +21,10 @@ pandas==2.2.3
 peewee==3.17.8
 platformdirs==4.3.6
 portalocker==2.10.1
+py4j==0.10.9.7
 pycparser==2.22
 PyJWT==2.10.1
+pyspark==3.5.3
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytz==2024.2

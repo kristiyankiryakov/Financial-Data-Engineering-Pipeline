@@ -98,9 +98,9 @@ def main():
         df = validate_data(df)
 
         # Show sample results
-        df.show(5)
-        
-        # Write results (commented out for now)
+        df.show(20)
+
+   
         df.write.mode('overwrite').parquet('processed_stocks')
         
         logging.info("Processing completed successfully")
@@ -108,8 +108,6 @@ def main():
     except Exception as e:
         logging.error(f"Pipeline failed: {str(e)}")
         raise
-    finally:
-        spark.stop()
 
 if __name__ == "__main__":
     main()

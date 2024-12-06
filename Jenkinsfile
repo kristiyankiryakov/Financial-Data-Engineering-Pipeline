@@ -40,13 +40,13 @@ pipeline {
                 }
             }
         }
-        
+    
         stage('Upload to Azure') {
             steps {
                 script {
                     sh """
                         . ${VENV_NAME}/bin/activate
-                        python3 upload_raw_to_azure.py
+                        python3 azure_upload.py
                     """
                 }
             }

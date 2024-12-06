@@ -22,3 +22,18 @@ This project is an end-to-end automated data pipeline designed to fetch financia
 * **Cloud Platform:** Microsoft Azure (Azure Data Lake Gen2 for storage).
 * **Automation Tool:** Jenkins (for pipeline orchestration and monitoring).
 * **Security:** Azure Key Vault and RBAC for secure credential and access management. 
+
+## Setup and Usage
+# Prerequisites
+* Python 3.8+ installed on your local system.
+* Azure account with access to Data Lake Gen2.
+* Jenkins installed and configured.
+# Steps to Run the Pipeline
+* 1.Clone the Repository
+* 2.Install Required Python Libraries
+* 3.Set Up Azure Data Lake
+* 4.Configure Jenkins Pipeline
+* 5.Run the Pipeline
+
+# Contact
+If you have any questions or suggestions regarding the project, feel free to contact me at [kiryakovkristiyan@gmail.com]

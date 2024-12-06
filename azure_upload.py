@@ -18,7 +18,7 @@ def upload_folder(container_name:str, local_folder_path:str, destination_folder:
             if file == "_SUCCESS":
                 continue
             local_file_path = os.path.join(root,file)
-            relative_path = os.path.relpathc(local_file_path, local_folder_path)
+            relative_path = os.path.relpath(local_file_path, local_folder_path)
             destination_path =os.path.join(destination_folder, relative_path)
 
             file_client = file_system_client.get_file_client(destination_path)
